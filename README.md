@@ -1,69 +1,48 @@
-Grade Management System
-A Java-based console application designed to manage and analyze student academic performance using Object-Oriented Programming principles, dynamic data structures, sorting algorithms, and file handling.
+#  Grade Management System
 
-Features
+##  Project Overview
 
- Add student records with subject marks
+The Grade Management System is a Java-based console application designed to manage and analyze student academic performance. The project follows Object-Oriented Programming (OOP) principles and uses ArrayList for dynamic data storage.
 
-Automatic average calculation
+The system allows users to:
+- Add student names and subject marks
+- Validate marks (0–100 range)
+- Calculate averages automatically
+- Assign grades (A+, A, B, C, D, F)
+- Sort students by performance using Bubble Sort
+- Save student data to a file for persistence
 
- Grade categorization (A+, A, B, C, D, F)
+This project demonstrates core Java concepts including OOP, Collections Framework, file handling, and algorithm implementation.
 
- Sort students by performance (Bubble Sort)
+---
 
-Save student data to file using FileWriter
+## 🛠 Technologies Used
 
- Menu-driven console interface
- Input validation (marks between 0–100)
+- Java (Core Java)
+- ArrayList (Collections Framework)
+- FileWriter (File Handling)
+- Bubble Sort Algorithm
 
- Tech Stack
+---
 
-Language: Java
+## Setup & Installation
 
-Concepts: OOP, Encapsulation
-
-Data Structure: ArrayList
-
-Algorithm: Bubble Sort
-
-Storage: File Handling
-
- Project Structure
-GradeManagementSystem/
-│
-├── Student.java
-├── GradeManagementSystem.java
-├── students.txt
-└── README.md
- How to Run
-1️. Clone the Repository
+### 1️.Clone the Repository
 git clone https://github.com/your-username/GradeManagementSystem.git
-2.Compile
+
+### 2. Navigate to src folder
+cd GradeManagementSystem/src
+
+### 3️ .Compile the program
 javac Student.java GradeManagementSystem.java
-3️. Run
+
+### 4️.Run the application
 java GradeManagementSystem
- Sample Workflow
 
-Add Student
+---
 
-Enter marks for 5 subjects
+##  Folder Structure
 
-View calculated average and grade
-
-Sort students by highest performance
-
-Save records to file
-
- Learning Outcomes
-
-This project demonstrates:
-
-Strong understanding of Core Java
-
-Practical implementation of OOP principles
-
-Usage of ArrayList for dynamic storage
-
-Implementation of Sorting Algorithms
-
-Real-world File Handling
+- `src/` → Contains source code files
+- `docs/` → Contains detailed project documentation
+- `examples/` → Contains sample grade data files
